@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  cursor: default;
+  font-family: "Space Grotesk", sans-serif !important;
+}
+.nav-options .dropdown-menu {
+  min-width: 0;
+}
+.navbar-brand img {
+  width: 140px;
+  padding: 20px 0px;
+}
+.navbar-nav li {
+  padding: 0px 20px;
+}
+.navbar-nav li a {
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.navbar-nav li a:hover {
+  color: #fab758;
+}
+.nav-options .btn-secondary {
+  transition: 0.3s;
+  font-size: 20px;
+  font-weight: 500;
+  --bs-btn-active-bg: none;
+  color: #343f52;
+  background: none;
+  border: 0;
+  --bs-btn-active-color: none;
+  padding: 0;
+  margin-right: 20px;
+}
+.nav-options .btn-secondary:hover {
+  background: none;
+  border: 0;
+  color: #fab758;
+}
+.info-btn a i {
+  color: #343f52;
+  font-size: 25px;
+  padding: 0px 10px;
+  transition: 0.3s;
+}
+.info-btn a i:hover {
+  color: #fab758;
+}
+.offcanvas {
+  background: #1e2228 !important;
+  padding: 20px;
+}
+.offcanvas .btn-close {
+  border-radius: 100px;
+  display: table;
+  margin-left: auto;
+  padding: 10px;
+  background-color: #ffffff61;
+}
+.offcanvas-content1 h1 {
+  color: white;
+  padding-bottom: 15px;
+}
+.offcanvas-content1 p {
+  color: #cacaca;
+  font-size: 17px;
+  font-weight: 500;
+}
+.offcanvas-content2 h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 0px;
+}
+.offcanvas-content2 p {
+  color: #cacaca;
+  font-size: 17px;
+  font-weight: 500;
+}
+.contact-links a {
+  text-decoration: none;
+  color: #cacaca;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.contact-links a:hover {
+  color: white;
+}
+.offcanvas-content3 {
+  padding-top: 15px;
+}
+.offcanvas-content3 .contact-links {
+  padding: 5px 0px;
+}
+.offcanvas-content4 a {
+  color: white;
+  margin-right: 25px;
+}
+.offcanvas-content4 a i {
+  font-size: 25px;
+  transition: 0.3s;
+}
+.offcanvas-content4 a i:hover {
+  transform: translateY(-5px);
+}
+.dropdown .dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: -7px;
+  margin-top: var(--bs-dropdown-spacer);
+}
+.banner {
+  height: 850px;
+  background-image: linear-gradient(180deg, #fff8ef 0%, #ffffff00 100%);
+}
+.grow {
+  padding: 100px 20px;
+}
+.grow h1 {
+  font-size: 51px;
+  line-height: 1.15;
+  color: #343f52;
+  font-weight: 700;
+}
+.grow p {
+  margin: 20px 0px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.55em;
+  word-spacing: 0px;
+  color: #60697b;
+}
+.banner-content {
+  padding-top: 100px;
+}
+.grow .free-btn {
+  display: inline-block;
+  transition: 0.3s;
+  margin-top: 50px;
+}
+.free-btn a {
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  background-color: #fab758;
+  padding: 15px 22px;
+  font-weight: 700;
+  color: white;
+  border-radius: 1000px;
+}
+.grow .free-btn:hover {
+  transform: translateY(-3px);
+}
+.grow .free-btn a:hover {
+  box-shadow: 0 5px 15px rgba(30, 34, 40, 0.15);
+}
+.needs {
+  margin-bottom: 50px;
+}
+.needs h1 {
+  text-align: center;
+}
+.needs h5 {
+  text-align: center;
+}
+.needs h5 {
+  color: #aab0bc;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35em;
+  letter-spacing: 0.4px;
+  word-spacing: 0px;
+  margin-bottom: 14px;
+}
+.needs h1 {
+  font-size: 2.7rem;
+  line-height: 1.15;
+  color: #343f52;
+  font-weight: 700;
+}
+.services {
+  height: 700px;
+}
+
+.card-logo1,
+.card-logo2,
+.card-logo3,
+.card-logo4 {
+  width: 60px;
+}
+.card .card-logo1 svg .lineal-fill {
+  fill: #fcd49b;
+}
+.card .card-logo1 svg .lineal-stroke {
+  fill: #36496d;
+}
+.card .card-logo2 svg .lineal-fill {
+  fill: #eea1a6;
+}
+.card .card-logo2 svg .lineal-stroke {
+  fill: #36496d;
+}
+.card .card-logo3 svg .lineal-fill {
+  fill: #8fdcc6;
+}
+.card .card-logo3 svg .lineal-stroke {
+  fill: #36496d;
+}
+.card .card-logo4 svg .lineal-fill {
+  fill: #8caeec;
+}
+.card .card-logo4 svg .lineal-stroke {
+  fill: #36496d;
+}
+
+.card {
+  padding: 20px;
+  border: none !important;
+}
+.card h5 {
+  font-size: 21px;
+  word-spacing: 0px;
+  color: #343f52;
+  font-weight: 700;
+}
+.card p {
+  font-size: 19px;
+  word-spacing: 0px;
+  color: #60697b;
+  font-weight: 500;
+  line-height: 1.9;
+}
+.card a {
+  text-decoration: none;
+  font-size: 17px;
+  word-spacing: 0px;
+  font-weight: 700;
+}
+.learn-btn1 a {
+  color: #fab758;
+}
+.learn-btn2 a {
+  color: #e2626b;
+}
+.learn-btn3 a {
+  color: #45c4a0;
+}
+.learn-btn4 a {
+  color: #3f78e0;
+}
+.relative {
+  position: relative;
+}
+
+.card a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  transition: 0.3s;
+}
+.card a:hover::after {
+  width: 100%;
+  left: 0;
+}
+.card {
+  background-color: white;
+  box-shadow: 0px 5px 35px 0px rgba(30, 34.00000000000001, 40, 0.07);
+  border-radius: 8px 8px 8px 8px;
+}
+.card-bg-images .fa-barcode {
+  font-size: 8rem;
+  position: absolute;
+  left: -50px;
+  top: -30px;
+  color: #fcd49b;
+}
+.card-bg-images .fa-face-smile {
+  font-size: 8rem;
+  position: absolute;
+  right: -65px;
+  bottom: 0px;
+  color: #f1f5fd;
+}
+.fast-check {
+  height: 770px;
+  background-color: transparent;
+  background-image: linear-gradient(0deg, #fff8ef 0%, #ffffff 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 75%);
+}
+.fast-check .banner-content {
+  padding: 0;
+}
+.fast-check .banner-content .grow {
+  padding: 0;
+  padding-top: 70px;
+}
+.fast-check .grow h1 {
+  font-size: 38px;
+}
+.fast-check .grow p {
+  font-size: 18px;
+  line-height: 1.85em;
+  color: #7a7a7a;
+}
+.fast-check .grow h6 {
+  color: #aab0bc;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.fast-check .grow .btn-primary {
+  background: #fab758;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+}
+.fast-check .grow .btn-primary:hover {
+  box-shadow: 0 5px 15px rgba(30, 34, 40, 0.15);
+}
+.fast-check .grow .form-control {
+  border-radius: 10px 0px 0px 10px;
+  width: 55%;
+}
+.fast-check .grow .form-control:focus {
+  color: inherit;
+  background-color: inherit;
+  border-color: #fcd49b;
+  outline: none;
+  box-shadow: none;
+}
+.fast-check .grow .form-floating > label {
+  font-size: 1rem;
+  color: #60697b;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.strategy .fast-check .banner-content {
+  padding: 0;
+}
+.strategy .fast-check .grow h6 {
+  font-size: 18px;
+}
+.strategy .fast-check .grow h1 {
+  font-size: 39px;
+}
+.strategy .fast-check .grow p {
+  font-size: 18px;
+  line-height: 1.8rem;
+}
+.strategy .fast-check .grow .free-btn {
+  margin-top: 25px;
+}
+.step-count {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  background-color: #fef3e4;
+  padding: 10px 15px;
+  border-radius: 100%;
+}
+.step-count i {
+  font-size: 26px;
+  color: #fab758;
+  font-weight: 700;
+  font-style: normal;
+}
+.count-align {
+  justify-content: center;
+  display: table;
+  align-items: center;
+}
+.strategies h3 {
+  color: #343f52;
+  font-size: 22px;
+  font-weight: 700;
+}
+.strategies h5 {
+  color: #343f52;
+  font-size: 17px;
+  font-weight: 400;
+}
+.steps {
+  box-shadow: 0px 5px 35px 0px rgba(30, 34.00000000000001, 40, 0.07);
+  padding: 20px 10px;
+  margin: 28px 0px;
+}
+.strategy-steps {
+  padding-top: 25px;
+}
+.step-two {
+  margin-right: -90px;
+  margin-left: 90px;
+}
+.step-three {
+  margin-right: -40px;
+  margin-left: 40px;
+}
+.strategy .fast-check{
+  background: none;
+  height: 650px;
+}
+.our-clients .fast-check{
+  background:none ;
+}
+.clients-supports .Supports{
+  padding: 25px 0px;
+}
+.clients-supports .Supports .accordion-button::after{
+  content:none ;
+}
+.clients-supports .Supports .accordion-item{
+  border: none;
+}
+.clients-supports .Supports .accordion-button:not(.collapsed){
+  color: #FAB758;
+background-color:inherit;
+box-shadow: none;
+}
+.clients-supports .Supports .accordion-button:focus{
+  border-color: inherit;
+  box-shadow: none;
+}
+.clients-supports .Supports .accordion-button:hover{
+  color: #FAB758;
+}
+.clients-supports .Supports .accordion-button{
+  font-size: 18px;
+  font-weight: 600;
+}
